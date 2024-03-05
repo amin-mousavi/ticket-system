@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="flex space-x-6 border-b mb-5 px-5 h-14 items-center">
       <Link href="/">
-        <MdOutlineBugReport />
+        <MdOutlineBugReport width="32rem" height="32rem" />
       </Link>
       <ul className="flex space-x-6">
         {links.map((link) => (
