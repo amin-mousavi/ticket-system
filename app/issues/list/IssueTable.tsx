@@ -71,6 +71,6 @@ const columns: {
   { label: "Created", value: "createdAt", className: "hidden md:table-cell" },
 ];
 
-export const columnsName = columns.map((column) => column.value);
+export const columnNames = columns.map((column) => column.value);
 
 export default IssueTable;
